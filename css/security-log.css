@@ -1,0 +1,50 @@
+.page-title {
+    text-align: center;
+    margin: 30px 0;
+    color: #4988c0;
+    font-size: 28px;
+  }
+  
+  /* Table Container */
+  .table-container {
+    width: 95%;
+    margin: auto;
+    overflow-x: auto;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+  }
+  
+  th {
+    background: #4988c0;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+  }
+  
+  td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Status Colors */
+  .active {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .completed {
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Row Hover */
+  tbody tr:hover {
+    background: #f1f7ff;
+  }
+  
